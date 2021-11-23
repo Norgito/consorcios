@@ -353,7 +353,7 @@
     grid-area: rightnavfoot; 
  }
 
- /*------ PRESUPUESTO ESTILO MOBILE -----*/
+ /*------ PRESUPUESTO ESTILO MOBILE -------*/
 
  .header--banner-presupuesto{
    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../assets/img/presupuesto.jpg);
