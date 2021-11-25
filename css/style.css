@@ -262,11 +262,11 @@
  .servicio--title{
      font-size: 24px;
      padding-top: 20px;
-     color: rgb(90, 99, 148);
- }
+     color: rgb(52, 59, 102);
+     }
 
  .nosotros--title{
-    color: rgb(90, 99, 148);
+    color: rgb(52, 59, 102);
     font-size: 24px;
     text-align: center;
     margin-top: 10x;
@@ -531,8 +531,8 @@
  }
 
  p.mobile-servicios-title{
-    color: rgb(90, 99, 148);
-    font-size: 24px;
+     color: rgb(52, 59, 102);
+     font-size: 24px;
      padding: 20px 20px 10px 20px;
  }
 
@@ -617,7 +617,7 @@
  }
  
  .contacto--p {
- color: rgb(90, 99, 148);
+  color: rgb(52, 59, 102);
  font-size: 24px;
  text-align: center;
  }
@@ -696,7 +696,7 @@
     }
     
  .contacto--p {
- color: rgb(90, 99, 148);
+  color: rgb(52, 59, 102);
  font-size: 30px;
  text-align: center;
  margin-top: 20px;
@@ -821,7 +821,7 @@
    position: relative;
    text-align: center;
    padding: 10px;
-   background-color: #dfe9f3;
+   background-color: #96c5f3;
    border: 1px solid rgb(58, 50, 133);
    border-radius: 4px;
  }
@@ -897,6 +897,7 @@
    padding: 10px 10px;
    border-radius: 30px;
  }
+ 
 
  div.img-01{
    margin: 0 5px;
@@ -906,6 +907,15 @@
    border-radius: 30px;
    border-width: 1px;
    border-color: rgb(31,75,128);
+ }
+
+ div.img-01 img{
+  transition: all 500ms ease-in-out;
+  filter: grayscale(1);
+ }
+
+ div.img-01 img:hover{
+   filter: grayscale(0);
  }
 
  div.logofoot img{
@@ -970,7 +980,7 @@
 
 
  .nosotros--title{
-   color: rgb(90, 99, 148);
+  color: rgb(52, 59, 102);
    font-size: 36px;
    text-align: center;
    margin-top: 10px;
@@ -1337,7 +1347,7 @@
  }
 
  .contacto--p {
-    color: rgb(90, 99, 148);
+    color: rgb(52, 59, 102);
     font-size: 36px;
     text-align: center;
  }
